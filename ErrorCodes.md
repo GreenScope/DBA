@@ -8,7 +8,13 @@ If the first character is not an `E` then there were no errors
 |:----------:|:---------------------------------------------------------------|
 | EXX        | An unprecedented error occurred                                |
 | E00        | Could not connect to the database                              |
-| E01        | Could not find the locations table                             |
-| E02        | No location matched the table                                  |
-| E03        | Could not find the sensors table                               |
-| E04        | No previous records found, assuming first entry and continuing |
+| E01        | Missing parameter                                              |
+| E02        | Invalid ID                                                     |
+| E03        | Invalid timestamp                                              |
+| E04        | Invalid parameter                                              |
+| E05        | Could not find the locations table                             |
+| E06        | Could not find the recordings table                            |
+
+| Warning Code | Warning Description       |
+|:------------:|:--------------------------|
+| W01          | No previous records found |
